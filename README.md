@@ -1,4 +1,6 @@
-# pickadate [![Build status: master](https://travis-ci.org/amsul/pickadate.js.svg?branch=master)](https://travis-ci.org/amsul/pickadate.js) [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/pickadate/badge?style=rounded)](https://www.jsdelivr.com/package/npm/pickadate)
+# pickadate-accessible
+
+*An accessible fork of the original [pickadate.js](https://github.com/amsul/pickadate.js) library*
 
 The mobile-friendly, responsive, and lightweight jQuery date & time input picker with WCAG 2.1 AA compliance.
 
@@ -12,11 +14,11 @@ The mobile-friendly, responsive, and lightweight jQuery date & time input picker
 
 #### To get it:
 
-[Download the latest stable build](https://github.com/amsul/pickadate.js/archive/master.zip)
+[Download the latest stable build](https://github.com/altea-software/pickadate-accessible/archive/master.zip)
 
 *or*
 
-`git clone git://github.com/amsul/pickadate.js.git`
+`git clone git://github.com/altea-software/pickadate-accessible.git`
 
 *or*
 
@@ -61,7 +63,7 @@ __**__ For languages with text flowing from right-to-left, also include the `rtl
 
 ### Translations
 
-The translations live in the `lib/translations` folder. There are currently [43 language translations](https://github.com/amsul/pickadate.js/tree/master/lib/translations) included.
+The translations live in the `lib/translations` folder. There are currently [43 language translations](https://github.com/altea-software/pickadate-accessible/tree/master/lib/translations) included.
 
 
 ## Accessibility & Compatibility
@@ -76,10 +78,18 @@ This library is fully compliant with WCAG 2.1 AA standards, providing:
 
 The accessibility improvements ensure that the date and time pickers are usable by people with disabilities, including those who rely on screen readers or keyboard navigation.
 
-### jQuery Compatibility
+### What's New in This Fork
 
-The library has been updated to remove deprecated jQuery functions for better future compatibility:
+This accessible fork includes significant improvements over the original library:
 
+**Accessibility Enhancements:**
+- Full WCAG 2.1 AA compliance implementation
+- Enhanced keyboard navigation with proper focus management
+- Screen reader compatibility with ARIA labels and announcements
+- Improved color contrast meeting AA standards
+- Better focus indicators for keyboard users
+
+**jQuery Compatibility:**
 - **Replaced `jQuery.isArray()`** with native `Array.isArray()` - 32 occurrences updated across all picker files
 - **Eliminates jQuery migrate warnings** when using jQuery 3.7.1+ with the migrate plugin
 - **Maintains backward compatibility** with IE9+ browsers
@@ -129,7 +139,7 @@ Make sure to run the `grunt develop` task before making any changes to compile i
 
 ## Bugs
 
-Before opening a new issue, please search the existing [Issues](https://github.com/amsul/pickadate.js/issues) for anything similar – there might already be an answer to your problem. You might also wanna check out the [Contributing](https://github.com/amsul/pickadate.js/blob/master/CONTRIBUTING.md) guide.
+Before opening a new issue, please search the existing [Issues](https://github.com/altea-software/pickadate-accessible/issues) for anything similar – there might already be an answer to your problem. You might also wanna check out the [Contributing](https://github.com/altea-software/pickadate-accessible/blob/master/CONTRIBUTING.md) guide.
 
 
 
@@ -139,7 +149,7 @@ Before opening a new issue, please search the existing [Issues](https://github.c
 
 ## Contributing
 
-Before contributing any code to the project, please take a look at the [Contributing](https://github.com/amsul/pickadate.js/blob/master/CONTRIBUTING.md) guide.
+Before contributing any code to the project, please take a look at the [Contributing](https://github.com/altea-software/pickadate-accessible/blob/master/CONTRIBUTING.md) guide.
 
 If there’s anything you’d like to discuss, we like to hang out on Spectrum.
 

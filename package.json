@@ -36,12 +36,12 @@
     "test": "npx grunt test --verbose"
   },
   "dependencies": {
-    "jquery": ">=1.7"
+    "jquery": "3.5.0"
   },
   "devDependencies": {
     "commander": "^2.8.0",
     "glob": "^5.0.5",
-    "grunt": "^0.4.5",
+    "grunt": "1.5.3",
     "grunt-autoprefixer": "^3.0.0",
     "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-cssmin": "^0.12.2",
@@ -51,8 +51,8 @@
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-contrib-watch": "^0.6.1",
     "qunitjs": "1.x",
-    "semver": "^4.3.3",
-    "shelljs": "^0.4.0",
+    "semver": "7.5.2",
+    "shelljs": "0.8.5",
     "zlib-browserify": "0.0.3"
   }
 }
