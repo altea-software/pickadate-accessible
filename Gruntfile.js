@@ -80,8 +80,7 @@ module.exports = function( grunt ) {
                 '<%= dirs.tests %>/units/*.js',
                 '<%= dirs.lib.src %>/**/*.js',
 
-                // Ignore the legacy and minified files.
-                '!<%= dirs.lib.src %>/legacy.js',
+                // Ignore the minified files.
                 '!<%= dirs.lib.src %>/compressed/**/*.js'
             ]
         },

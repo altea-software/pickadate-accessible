@@ -41,8 +41,6 @@ There are three picker files:
 * `picker.date.js` The date picker
 * `picker.time.js` The time picker
 
-_To support old browsers, namely IE8, **also include** the `legacy.js` file._
-
 
 ### Themes
 
@@ -92,7 +90,7 @@ This accessible fork includes significant improvements over the original library
 **jQuery Compatibility:**
 - **Replaced `jQuery.isArray()`** with native `Array.isArray()` - 32 occurrences updated across all picker files
 - **Eliminates jQuery migrate warnings** when using jQuery 3.7.1+ with the migrate plugin
-- **Maintains backward compatibility** with IE9+ browsers
+- **Modern browser support** - IE9+ and all modern browsers
 - **Future-proof** for upcoming jQuery versions where deprecated functions will be removed
 
 
