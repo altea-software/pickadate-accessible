@@ -1,6 +1,6 @@
 # pickadate [![Build status: master](https://travis-ci.org/amsul/pickadate.js.svg?branch=master)](https://travis-ci.org/amsul/pickadate.js) [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/pickadate/badge?style=rounded)](https://www.jsdelivr.com/package/npm/pickadate)
 
-The mobile-friendly, responsive, and lightweight jQuery date & time input picker.
+The mobile-friendly, responsive, and lightweight jQuery date & time input picker with WCAG 2.1 AA compliance.
 
 [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/pickadate)
 
@@ -63,6 +63,27 @@ __**__ For languages with text flowing from right-to-left, also include the `rtl
 
 The translations live in the `lib/translations` folder. There are currently [43 language translations](https://github.com/amsul/pickadate.js/tree/master/lib/translations) included.
 
+
+## Accessibility & Compatibility
+
+This library is fully compliant with WCAG 2.1 AA standards, providing:
+
+- **Enhanced keyboard navigation** with proper focus management and tab order
+- **Screen reader compatibility** with ARIA labels and announcements
+- **Strict equality compliance** for improved maintainability and reliability
+- **Improved color contrast** meeting AA standards
+- **Better focus indicators** for keyboard users
+
+The accessibility improvements ensure that the date and time pickers are usable by people with disabilities, including those who rely on screen readers or keyboard navigation.
+
+### jQuery Compatibility
+
+The library has been updated to remove deprecated jQuery functions for better future compatibility:
+
+- **Replaced `jQuery.isArray()`** with native `Array.isArray()` - 32 occurrences updated across all picker files
+- **Eliminates jQuery migrate warnings** when using jQuery 3.7.1+ with the migrate plugin
+- **Maintains backward compatibility** with IE9+ browsers
+- **Future-proof** for upcoming jQuery versions where deprecated functions will be removed
 
 
 
